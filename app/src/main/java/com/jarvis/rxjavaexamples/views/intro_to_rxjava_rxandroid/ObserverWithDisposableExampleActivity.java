@@ -1,4 +1,4 @@
-package com.jarvis.rxjavaexamples.intro_to_rxjava_rxandroid;
+package com.jarvis.rxjavaexamples.views.intro_to_rxjava_rxandroid;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -15,37 +15,37 @@ import io.reactivex.schedulers.Schedulers;
  * Created by Sachin
  */
 
-/*RxJava is a Java VM implementation of Reactive Extensions.*/
-
-/*Reactive programming is programming with asynchronous data streams.*/
-
-public class FirstRxJavaExampleActivity extends AppCompatActivity {
+public class ObserverWithDisposableExampleActivity extends AppCompatActivity {
 
     //tag name we can use as Activity name
-    private static final String TAG = FirstRxJavaExampleActivity.class.getSimpleName();
+    private static final String TAG = ObserverWithDisposableExampleActivity.class.getSimpleName();
 
     /**
      * Creating an Observable ≈An Observable emits the data stream≈
      * Creating an Observer ≈An Observer receives the data emitted by Observable≈
+     * Creating/Using a Disposable ≈Adding a Disposable to un-subscribe the Subscribed Observer≈
+     * Disposable: Disposable is used to dispose the subscription when an Observer no longer wants to listen to Observable.
+     * In android disposable are very useful in avoiding memory leaks.
      */
 
+
+    private Disposable disposable;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_first_rx_java_example);
 
-        //Our First Observable
+        //Animal Observable
         Observable<String> animalsObservable = Observable.just("Ant", "Bee", "Cat", "Dog", "Fox");
 
-        //Our First Observer
+        //ANimal Observer
         Observer<String> animalObserver = getANimalObserver();
 
-        //Observer subscribing to observable
-        //{Make Observer subscribe to Observable so that it can start receiving the data whatever is emitted by Observable.}
+        //Observer subscribing to observable so that it can start receiving the data whatever is emitted
         animalsObservable.
-                subscribeOn(Schedulers.io()).   //This tells the Observable to run the task on a background thread
-                observeOn(AndroidSchedulers.mainThread()).    // This tells the observer to receive the data on Android's UI thread so can perform the action on Android UI
+                subscribeOn(Schedulers.io()).
+                observeOn(AndroidSchedulers.mainThread()).
                 subscribe(animalObserver);
     }
 
@@ -57,6 +57,7 @@ public class FirstRxJavaExampleActivity extends AppCompatActivity {
             @Override
             public void onSubscribe(Disposable d) {
                 Log.d(TAG, "onSubscribe");
+                disposable = d;
             }
 
             @Override
@@ -74,5 +75,13 @@ public class FirstRxJavaExampleActivity extends AppCompatActivity {
                 Log.d(TAG, "All items are emitted!");
             }
         };
+    }
+
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        // don't send events once the activity is destroyed
+        disposable.dispose();
     }
 }

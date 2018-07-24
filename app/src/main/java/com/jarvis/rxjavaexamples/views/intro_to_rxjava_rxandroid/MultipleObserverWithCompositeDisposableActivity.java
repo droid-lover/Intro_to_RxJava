@@ -1,4 +1,4 @@
-package com.jarvis.rxjavaexamples.intro_to_rxjava_rxandroid;
+package com.jarvis.rxjavaexamples.views.intro_to_rxjava_rxandroid;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

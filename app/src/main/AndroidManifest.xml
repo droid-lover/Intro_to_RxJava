@@ -20,12 +20,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".intro_to_rxjava_rxandroid.FirstRxJavaExampleActivity" />
-        <activity android:name=".intro_to_rxjava_rxandroid.SecondRxJavaActivity" />
-        <activity android:name=".intro_to_rxjava_rxandroid.ObserverWithDisposableExampleActivity" />
-        <activity android:name=".intro_to_rxjava_rxandroid.FilterOperatorExampleActivity" />
-        <activity android:name=".intro_to_rxjava_rxandroid.MultipleObserverWithCompositeDisposableActivity" />
-        <activity android:name=".intro_to_rxjava_rxandroid.CustomDataTypeObserverExampleActivity" />
+        <activity android:name=".views.intro_to_rxjava_rxandroid.FirstRxJavaExampleActivity" />
+        <activity android:name=".views.intro_to_rxjava_rxandroid.SecondRxJavaActivity" />
+        <activity android:name=".views.intro_to_rxjava_rxandroid.ObserverWithDisposableExampleActivity" />
+        <activity android:name=".views.intro_to_rxjava_rxandroid.FilterOperatorExampleActivity" />
+        <activity android:name=".views.intro_to_rxjava_rxandroid.MultipleObserverWithCompositeDisposableActivity" />
+        <activity android:name=".views.intro_to_rxjava_rxandroid.CustomDataTypeObserverExampleActivity" />
         <activity
             android:name=".rx_operators.RxOperatorsActivity"
             android:label="Rx Operators"

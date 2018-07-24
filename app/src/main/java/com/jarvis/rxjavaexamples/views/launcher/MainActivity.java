@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 import com.jarvis.rxjavaexamples.R;
-import com.jarvis.rxjavaexamples.intro_to_rxjava_rxandroid.MultipleObserverWithCompositeDisposableActivity;
+import com.jarvis.rxjavaexamples.views.intro_to_rxjava_rxandroid.MultipleObserverWithCompositeDisposableActivity;
 import com.jarvis.rxjavaexamples.views.observables_type.TypesOfObservableActivity;
 import butterknife.BindView;
 import butterknife.ButterKnife;
