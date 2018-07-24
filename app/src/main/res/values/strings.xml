@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RxJava+RxAndroid</string>
+    <string name="auther_name">by Sachin</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_notes_app">NotesAppActivity</string>
+    <string name="title_activity_test_cordinator_layout">TestCordinatorLayoutActivity</string>
+    <string name="title_activity_rx_binding">RxBindingActivity</string>
+    <string name="instruction">These Examples are to explaing code related to RxJava and RxAndroid , please check code , no UI </string>
+</resources>

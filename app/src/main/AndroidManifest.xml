@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jarvis.rxjavaexamples">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".views.launcher.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".intro_to_rxjava_rxandroid.FirstRxJavaExampleActivity" />
+        <activity android:name=".intro_to_rxjava_rxandroid.SecondRxJavaActivity" />
+        <activity android:name=".intro_to_rxjava_rxandroid.ObserverWithDisposableExampleActivity" />
+        <activity android:name=".intro_to_rxjava_rxandroid.FilterOperatorExampleActivity" />
+        <activity android:name=".intro_to_rxjava_rxandroid.MultipleObserverWithCompositeDisposableActivity" />
+        <activity android:name=".intro_to_rxjava_rxandroid.CustomDataTypeObserverExampleActivity" />
+        <activity
+            android:name=".rx_operators.RxOperatorsActivity"
+            android:label="Rx Operators"
+            android:parentActivityName=".views.launcher.MainActivity"
+            android:screenOrientation="portrait">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".rx_operators.FromArrayActivity"
+            android:label="Operator FromArray"
+            android:parentActivityName=".rx_operators.RxOperatorsActivity" />
+        <activity
+            android:name=".rx_operators.RangeArrayActivity"
+            android:label="Operator RangeArray"
+            android:parentActivityName=".rx_operators.RxOperatorsActivity" />
+        <activity
+            android:name=".rx_operators.ChainingOfOperatorsActivity"
+            android:label="Operator Chaining"
+            android:parentActivityName=".rx_operators.ChainingOfOperatorsActivity" />
+        <activity
+            android:name=".rx_operators.MultipleObserversWithChainingOfOperators"
+            android:label="Multiple Observer with Chaining Operator"
+            android:parentActivityName=".rx_operators.ChainingOfOperatorsActivity" />
+        <activity
+            android:name=".rx_operators.JustOperatorActivity"
+            android:label="Just Operator"
+            android:parentActivityName=".rx_operators.ChainingOfOperatorsActivity" />
+        <activity
+            android:name=".rx_operators.RepeatOperatorActivity"
+            android:label="Repeat Operator"
+            android:parentActivityName=".rx_operators.ChainingOfOperatorsActivity" />
+        <activity
+            android:name=".rx_operators.BufferOperatorActivity"
+            android:label="Buffer Operator"
+            android:parentActivityName=".rx_operators.ChainingOfOperatorsActivity" />
+        <activity
+            android:name=".rx_operators.BufferOperatorExample2Activity"
+            android:label="Use of Buffer Operator"
+            android:parentActivityName=".rx_operators.ChainingOfOperatorsActivity" />
+        <activity
+            android:name=".rx_operators.DebounceOperatorActivity"
+            android:label="Debounce Operator"
+            android:parentActivityName=".rx_operators.ChainingOfOperatorsActivity" />
+        <activity
+            android:name=".rx_operators.FilterOperatorActivity"
+            android:label="Filter Operator"
+            android:parentActivityName=".rx_operators.RxOperatorsActivity" />
+        <activity
+            android:name=".rx_operators.SkipOperatorActivity"
+            android:label="Skip Operator"
+            android:parentActivityName=".rx_operators.RxOperatorsActivity" />
+        <activity
+            android:name=".rx_operators.SkipLastOperatorActivity"
+            android:label="SkipLast Operator"
+            android:parentActivityName=".rx_operators.RxOperatorsActivity" />
+        <activity
+            android:name=".rx_operators.TakeOperatorActivity"
+            android:label="Take Operator"
+            android:parentActivityName=".rx_operators.RxOperatorsActivity" />
+        <activity
+            android:name=".rx_operators.TakeLastOperatorActivity"
+            android:label="TakeLast Operator"
+            android:parentActivityName=".rx_operators.RxOperatorsActivity" />
+        <activity
+            android:name=".rx_operators.DistinctOperatorActivity"
+            android:label="Distinct Operator"
+            android:parentActivityName=".rx_operators.RxOperatorsActivity" />
+        <activity
+            android:name=".rx_operators.DistinctCustomDataTypeOperatorActivity"
+            android:label="Distinct Custom DataType Operator"
+            android:parentActivityName=".rx_operators.RxOperatorsActivity" />
+        <activity
+            android:name=".views.observables_type.TypesOfObservableActivity"
+            android:label="Types of Observable and Observers"
+            android:parentActivityName=".views.launcher.MainActivity" />
+        <activity android:name=".views.observables_type.ObservableAndObserverExampleActivity" />
+        <activity
+            android:name=".views.observables_type.SingleObserverActivity"
+            android:label="Single Observer"
+            android:parentActivityName=".views.observables_type.TypesOfObservableActivity" />
+        <activity
+            android:name=".rx_operators.MapOperatorActivity"
+            android:label="Map Operator"
+            android:parentActivityName=".rx_operators.RxOperatorsActivity" />
+        <activity
+            android:name=".rx_operators.FlatMapOperatorActivity"
+            android:label="FlatMap Operator"
+            android:parentActivityName=".rx_operators.RxOperatorsActivity" />
+
+    </application>
+
+</manifest>

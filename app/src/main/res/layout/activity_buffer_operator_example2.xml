@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".rx_operators.BufferOperatorExample2Activity">
+
+    <Button
+        android:id="@+id/layout_tap_area"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="45dp"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="Tap repeatedly here!"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/tap_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/tap_result_max_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" />
+
+
+</LinearLayout>

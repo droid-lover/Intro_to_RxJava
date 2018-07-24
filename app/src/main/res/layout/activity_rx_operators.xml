@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:focusable="true"
+    tools:context=".rx_operators.RxOperatorsActivity">
+
+    <ListView
+        android:id="@+id/rx_operators_list_view"
+        android:layout_width="match_parent"
+        android:focusableInTouchMode="true"
+        android:layout_height="match_parent"/>
+</LinearLayout>
