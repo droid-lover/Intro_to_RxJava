@@ -13,13 +13,7 @@
             android:name=".views.launcher.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar"
-            android:windowSoftInputMode="">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:windowSoftInputMode=""></activity>
         <activity android:name=".views.intro_to_rxjava_rxandroid.FirstRxJavaExampleActivity" />
         <activity android:name=".views.intro_to_rxjava_rxandroid.SecondRxJavaActivity" />
         <activity android:name=".views.intro_to_rxjava_rxandroid.ObserverWithDisposableExampleActivity" />
@@ -30,8 +24,7 @@
             android:name=".views.rx_operators.RxOperatorsActivity"
             android:label="Rx Operators"
             android:parentActivityName=".views.launcher.MainActivity"
-            android:screenOrientation="portrait">
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name=".views.rx_operators.FromArrayActivity"
             android:label="Operator FromArray"
@@ -113,10 +106,19 @@
             android:name=".views.rx_operators.FlatMapOperatorActivity"
             android:label="FlatMap Operator"
             android:parentActivityName=".views.rx_operators.RxOperatorsActivity" />
-       <!-- <activity
-            android:name=".views.rx_operators.RxOperatorsActivity"
-            android:label="FlatMap Operator"
-            android:parentActivityName=".views.rx_operators.RxOperatorsActivity" />-->
+        <!-- <activity
+             android:name=".views.rx_operators.RxOperatorsActivity"
+             android:label="FlatMap Operator"
+             android:parentActivityName=".views.rx_operators.RxOperatorsActivity" />-->
+        <activity
+            android:name=".views.launcher.SplashScreenActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
 
     </application>
 
