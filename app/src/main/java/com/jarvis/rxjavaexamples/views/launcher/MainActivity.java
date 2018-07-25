@@ -9,9 +9,12 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
+
 import com.jarvis.rxjavaexamples.R;
 import com.jarvis.rxjavaexamples.views.intro_to_rxjava_rxandroid.MultipleObserverWithCompositeDisposableActivity;
 import com.jarvis.rxjavaexamples.views.observables_type.TypesOfObservableActivity;
+import com.jarvis.rxjavaexamples.views.rx_operators.RxOperatorsActivity;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -63,7 +66,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
 
             case R.id.tvRxJavaOperators:
-                Toast.makeText(MainActivity.this, "Coming soon :) ", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(MainActivity.this, "Coming soon :) ", Toast.LENGTH_SHORT).show();
+                Intent intent1 = new Intent(MainActivity.this, RxOperatorsActivity.class);
+                startActivity(intent1);
                 break;
 
             case R.id.tvObservableTypes:
