@@ -33,7 +33,6 @@ public class DistinctOperatorActivity extends AppCompatActivity {
                         Log.d(TAG, "onSubscribe" + d);
                         disposable = d;
                     }
-
                     @Override
                     public void onNext(Integer integer) {
                         Log.d(TAG, "onNext" + integer);

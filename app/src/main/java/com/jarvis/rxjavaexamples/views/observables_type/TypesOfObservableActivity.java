@@ -43,15 +43,14 @@ public class TypesOfObservableActivity extends AppCompatActivity {
         typeOfObservableAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, typesOfObservables);
         typesOfObservableListView.setAdapter(typeOfObservableAdapter);
 
-
         typesOfObservableListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                if(parent.getItemAtPosition(position).equals(typesOfObservables[0])){
-                    Intent intent = new Intent(TypesOfObservableActivity.this,ObservableAndObserverExampleActivity.class);
+                if (parent.getItemAtPosition(position).equals(typesOfObservables[0])) {
+                    Intent intent = new Intent(TypesOfObservableActivity.this, ObservableAndObserverExampleActivity.class);
                     startActivity(intent);
-                }else if(parent.getItemAtPosition(position).equals(typesOfObservables[1])){
-                    Intent intent = new Intent(TypesOfObservableActivity.this , SingleObserverActivity.class);
+                } else if (parent.getItemAtPosition(position).equals(typesOfObservables[1])) {
+                    Intent intent = new Intent(TypesOfObservableActivity.this, SingleObserverActivity.class);
                     startActivity(intent);
                 }
             }
