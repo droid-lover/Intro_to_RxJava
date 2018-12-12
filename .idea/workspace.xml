@@ -2425,16 +2425,17 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
-    <property name="device.picker.selection" value="Nexus_6P_API_23" />
-    <property name="android.profiler.active" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="Spl&#9;FILE&#9;file:///Users/sachin/Desktop/Workspace/practice/RxJava Data/app/src/main/java/com/jarvis/rxjavaexamples/views/launcher/SplashScreenActivity.java&#10;Andr&#9;FILE&#9;file:///Users/sachin/Desktop/Workspace/practice/RxJava Data/app/src/main/AndroidManifest.xml&#10;activity_sp&#9;FILE&#9;file:///Users/sachin/Desktop/Workspace/practice/RxJava Data/app/src/main/res/layout/activity_splash_screen.xml&#10;Spla&#9;FILE&#9;file:///Users/sachin/Desktop/Workspace/practice/RxJava Data/app/src/main/java/com/jarvis/rxjavaexamples/views/launcher/SplashScreenActivity.java&#10;Main&#9;FILE&#9;file:///Users/sachin/Desktop/Workspace/practice/RxJava Data/app/src/main/java/com/jarvis/rxjavaexamples/views/launcher/MainActivity.java&#10;MainAct&#9;FILE&#9;file:///Users/sachin/Desktop/Workspace/practice/RxJava Data/app/src/main/java/com/jarvis/rxjavaexamples/views/launcher/MainActivity.java&#10;style&#9;FILE&#9;file:///Users/sachin/Desktop/Workspace/practice/RxJava Data/app/src/main/res/values/styles.xml&#10;col&#9;FILE&#9;file:///Users/sachin/Desktop/Workspace/practice/RxJava Data/app/src/main/res/values/colors.xml&#10;actest&#9;FILE&#9;file:///Users/sachin/Desktop/Workspace/practice/RxJava Data/app/src/main/res/layout/activity_test_cordinator_layout.xml&#10;actir&#9;FILE&#9;file:///Users/sachin/Desktop/Workspace/practice/RxJava Data/app/src/main/res/layout/activity_rx_binding.xml&#10;distinct&#9;FILE&#9;file:///Users/sachin/Desktop/Workspace/practice/RxJava Data/app/src/main/java/com/jarvis/rxjavaexamples/rx_operators/DistinctOperatorActivity.java&#10;activityr&#9;FILE&#9;file:///Users/sachin/Desktop/Workspace/practice/RxJava Data/app/src/main/res/layout/activity_rx_operators.xml&#10;activitymai&#9;FILE&#9;file:///Users/sachin/Desktop/Workspace/practice/RxJava Data/app/src/main/res/layout/activity_main.xml&#10;activitym&#9;PSI&#9;JAVA://com.jarvis.rxjavaexamples.R.layout#activity_main&#10;.xml&#9;FILE&#9;file:///Users/sachin/Desktop/Workspace/practice/RxJava Data/app/src/main/res/layout/activity_flat_map_operator.xml&#10;Fl&#9;FILE&#9;file:///Users/sachin/Desktop/Workspace/practice/RxJava Data/app/src/main/java/com/jarvis/rxjavaexamples/rx_operators/FlatMapOperatorActivity.java&#10;Rx&#9;PSI&#9;JAVA://com.jarvis.rxjavaexamples.rx_operators.RxOperatorsActivity&#10;Map&#9;PSI&#9;JAVA://com.jarvis.rxjavaexamples.rx_operators.MapOperatorActivity" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
     <property name="DEBUGGABLE_DEVICE" value="lenovo-lenovo_a6020a46-192.168.5.89:5555" />
     <property name="DEBUGGABLE_PROCESS" value="com.jarvis.rxjavaexamples" />
-    <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="DEBUGGER_ID" value="Auto" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="Spl&#9;FILE&#9;file:///Users/sachin/Desktop/Workspace/practice/RxJava Data/app/src/main/java/com/jarvis/rxjavaexamples/views/launcher/SplashScreenActivity.java&#10;Andr&#9;FILE&#9;file:///Users/sachin/Desktop/Workspace/practice/RxJava Data/app/src/main/AndroidManifest.xml&#10;activity_sp&#9;FILE&#9;file:///Users/sachin/Desktop/Workspace/practice/RxJava Data/app/src/main/res/layout/activity_splash_screen.xml&#10;Spla&#9;FILE&#9;file:///Users/sachin/Desktop/Workspace/practice/RxJava Data/app/src/main/java/com/jarvis/rxjavaexamples/views/launcher/SplashScreenActivity.java&#10;Main&#9;FILE&#9;file:///Users/sachin/Desktop/Workspace/practice/RxJava Data/app/src/main/java/com/jarvis/rxjavaexamples/views/launcher/MainActivity.java&#10;MainAct&#9;FILE&#9;file:///Users/sachin/Desktop/Workspace/practice/RxJava Data/app/src/main/java/com/jarvis/rxjavaexamples/views/launcher/MainActivity.java&#10;style&#9;FILE&#9;file:///Users/sachin/Desktop/Workspace/practice/RxJava Data/app/src/main/res/values/styles.xml&#10;col&#9;FILE&#9;file:///Users/sachin/Desktop/Workspace/practice/RxJava Data/app/src/main/res/values/colors.xml&#10;actest&#9;FILE&#9;file:///Users/sachin/Desktop/Workspace/practice/RxJava Data/app/src/main/res/layout/activity_test_cordinator_layout.xml&#10;actir&#9;FILE&#9;file:///Users/sachin/Desktop/Workspace/practice/RxJava Data/app/src/main/res/layout/activity_rx_binding.xml&#10;distinct&#9;FILE&#9;file:///Users/sachin/Desktop/Workspace/practice/RxJava Data/app/src/main/java/com/jarvis/rxjavaexamples/rx_operators/DistinctOperatorActivity.java&#10;activityr&#9;FILE&#9;file:///Users/sachin/Desktop/Workspace/practice/RxJava Data/app/src/main/res/layout/activity_rx_operators.xml&#10;activitymai&#9;FILE&#9;file:///Users/sachin/Desktop/Workspace/practice/RxJava Data/app/src/main/res/layout/activity_main.xml&#10;activitym&#9;PSI&#9;JAVA://com.jarvis.rxjavaexamples.R.layout#activity_main&#10;.xml&#9;FILE&#9;file:///Users/sachin/Desktop/Workspace/practice/RxJava Data/app/src/main/res/layout/activity_flat_map_operator.xml&#10;Fl&#9;FILE&#9;file:///Users/sachin/Desktop/Workspace/practice/RxJava Data/app/src/main/java/com/jarvis/rxjavaexamples/rx_operators/FlatMapOperatorActivity.java&#10;Rx&#9;PSI&#9;JAVA://com.jarvis.rxjavaexamples.rx_operators.RxOperatorsActivity&#10;Map&#9;PSI&#9;JAVA://com.jarvis.rxjavaexamples.rx_operators.MapOperatorActivity" />
+    <property name="android.profiler.active" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="device.picker.selection" value="Nexus_6P_API_23" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="sync.plugin.last.upgrade.timestamp" value="1544618094536" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -2492,6 +2493,7 @@
       </option>
       <patterns />
       <method>
+        <option name="Make" enabled="false" />
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
