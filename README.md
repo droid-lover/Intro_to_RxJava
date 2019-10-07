@@ -50,4 +50,10 @@
                            
  ### Some Interesting points (overall)--
 
-Difference between Observable.from() and Observable.just() —Observable.just() emits only once whereas Observable.from()emits n times
+1.Difference between Observable.from() and Observable.just() —Observable.just() emits only once whereas Observable.from()emits n times
+
+2.Range operator creates an Observable that emits a range of sequential integers. it takes two arguments: the starting number and length.
+
+3.Timer Operator creates an Observable that emits one particular item after a span of time.
+
+4.Repeat allows emitting a particular item or sequence of items repeatedly. We can pass the number of repetitions also.
