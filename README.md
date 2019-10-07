@@ -48,6 +48,6 @@
                            -----   by Sachin   -----    HAPPY CODING :) 
                            
                            
-Some Interesting points (overall)--
+ ### Some Interesting points (overall)--
 
 Difference between Observable.from() and Observable.just() —Observable.just() emits only once whereas Observable.from()emits n times
