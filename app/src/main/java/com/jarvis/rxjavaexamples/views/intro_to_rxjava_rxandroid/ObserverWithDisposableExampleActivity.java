@@ -1,7 +1,7 @@
 package com.jarvis.rxjavaexamples.views.intro_to_rxjava_rxandroid;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;
 
 import com.jarvis.rxjavaexamples.R;

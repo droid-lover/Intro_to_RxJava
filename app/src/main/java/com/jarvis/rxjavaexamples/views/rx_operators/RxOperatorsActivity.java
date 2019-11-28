@@ -1,7 +1,7 @@
 package com.jarvis.rxjavaexamples.views.rx_operators;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;

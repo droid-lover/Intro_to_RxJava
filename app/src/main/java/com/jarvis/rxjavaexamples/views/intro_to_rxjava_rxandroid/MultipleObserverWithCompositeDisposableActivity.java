@@ -1,6 +1,6 @@
 package com.jarvis.rxjavaexamples.views.intro_to_rxjava_rxandroid;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.MenuItem;

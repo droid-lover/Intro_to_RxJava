@@ -1,6 +1,6 @@
 package com.jarvis.rxjavaexamples.views.rx_operators;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.MenuItem;
@@ -8,7 +8,6 @@ import android.view.MenuItem;
 import com.jarvis.rxjavaexamples.R;
 
 import io.reactivex.Observable;
-import io.reactivex.Observer;
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.functions.Function;

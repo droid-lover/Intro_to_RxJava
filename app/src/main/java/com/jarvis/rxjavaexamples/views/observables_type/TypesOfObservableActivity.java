@@ -1,7 +1,7 @@
 package com.jarvis.rxjavaexamples.views.observables_type;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;

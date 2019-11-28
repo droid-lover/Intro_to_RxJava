@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/RxJava Data.iml" filepath="$PROJECT_DIR$/RxJava Data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Intro_to_RxJava.iml" filepath="$PROJECT_DIR$/Intro_to_RxJava.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
